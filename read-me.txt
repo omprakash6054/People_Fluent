@@ -1,0 +1,11 @@
+#to install node modules
+npm install --save
+
+##to run local JSON with npm server
+json-server --watch data.json
+
+#to run test cases
+npm run test
+
+#to run application
+ng serve
