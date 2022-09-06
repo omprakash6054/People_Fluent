@@ -1,0 +1,12 @@
+{
+    "student": {
+        "dashboard": "Student Dashboard",
+        "addStudent": "Add Student",
+        "updateStudent": "Update Student",
+        "score": "Student score",
+        "class": "Student class",
+        "all" : "All",
+        "name":"Student Name",
+        "info":"Student Info"
+    }
+}

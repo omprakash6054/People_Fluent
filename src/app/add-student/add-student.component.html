@@ -1,0 +1,52 @@
+<form [formGroup]="studentForm">
+  <h1 mat-dialog-title>{{ headerText }} {{ "student.info" | translate }}</h1>
+  <mat-grid-list cols="7" rowHeight="100px">
+    <mat-grid-tile [colspan]="2" [rowspan]="1">
+      <mat-form-field class="example-full-width m-2 pl-2" appearance="fill">
+        <input class="mr-3"
+          matInput
+          type="text"
+          placeholder="Student Name"
+          formControlName="studentName"
+        />
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="2" [rowspan]="1">
+      <mat-form-field class="example-full-width m-2" appearance="fill">
+        <input
+          matInput
+          type="number"
+          placeholder="Student Score"
+          formControlName="studentScore"
+        />
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="3" [rowspan]="1">
+      <div class="d-flex justify-content-lg-between align-items-center">
+        <label class="m-2">Student Class:</label>
+        <mat-radio-group
+          aria-label="Student Class"
+          formControlName="studentClass"
+        >
+          <mat-radio-button value="A" class="m-2">A</mat-radio-button>
+          <mat-radio-button value="B" class="m-2">B</mat-radio-button>
+          <mat-radio-button value="C" class="m-2">C</mat-radio-button>
+        </mat-radio-group>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+  <span mat-dialog-actions class="row">
+    <span class="col-md-6">
+      <button color="warn" mat-raised-button (click)="onCancelClick()">
+        Cancel
+      </button>
+    </span>
+    <span class="col-md-6">
+      <div class="float-end">
+        <button color="primary" mat-raised-button (click)="addStudent()">
+          {{ actionText }}
+        </button>
+      </div>
+    </span>
+  </span>
+</form>

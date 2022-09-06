@@ -1,0 +1,28 @@
+{
+  "studentInfo": [
+    {
+      "studentName": "alan",
+      "studentScore": 90,
+      "studentClass": "A",
+      "id": 8
+    },
+    {
+      "studentName": "Max",
+      "studentScore": 85,
+      "studentClass": "B",
+      "id": 9
+    },
+    {
+      "studentName": "Jack",
+      "studentScore": 88,
+      "studentClass": "A",
+      "id": 10
+    },
+    {
+      "studentName": "Chris",
+      "studentScore": 95,
+      "studentClass": "C",
+      "id": 11
+    }
+  ]
+}

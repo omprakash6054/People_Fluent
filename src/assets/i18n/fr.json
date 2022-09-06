@@ -1,0 +1,12 @@
+{
+    "student": {
+        "dashboard": "tableau de bord d'étudiant",
+        "addStudent": "ajouter étudiant",
+        "updateStudent": "modifier étudiant",
+        "score": "Note de l'étudiant",
+        "class": "Classe étudiant",
+        "all" : "Tous",
+        "name":"Nom d'étudiant",
+        "info":"informations sur l'étudiant"
+    }
+}

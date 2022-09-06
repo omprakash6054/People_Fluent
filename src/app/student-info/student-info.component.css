@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .check-margin {
+    margin: 0 10px;
+  }
+  .checkbox-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .label-margin {
+    margin: 0px 10px 20px 0px;
+  }
+  .label-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }

@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	/* background-image: linear-gradient(274.91deg, #70BC1F -26.96%, #00ACE1 93.71%); */
+    background-repeat: no-repeat;
+    background-size: 100%  250px;
+	font-family: Roboto;
+}
+.card{
+	box-shadow : 1px 1px 15px rgba(0,0,0,0.1);
+	border-radius: 15px;
+	border: none;
+	margin-bottom: 15px;
+}
+
+.light-text{
+	color:#fff;
+}
+.welcome-title{
+	font-family: 'Roboto';
+    font-weight: 700;
+}
+.welcome-block{
+	margin-top: 85px;
+}
+.visit-btn {
+    font-weight: 700;
+    color: #455560;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.card-heading{
+	font-size: 18px;
+	font-weight: 700;
+	font-family: Roboto;
+	color: #212121;
+	margin-bottom: 10px;
+}
+p{
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto;
+	color: #696765;
+	margin-bottom:10px !important;
+}
+@media only screen and (max-width: 600px) {
+.card-icon{
+	height: auto;
+	margin-bottom: 10px;
+}
+.welcome-block{
+	margin-top: 55px;
+}
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
